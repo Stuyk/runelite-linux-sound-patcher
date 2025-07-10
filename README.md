@@ -6,6 +6,8 @@ This is a small program that simply patches the `sound.properties` files for Run
 
 Run the program, and it'll just append some data to the files to get the ALSA working again.
 
+[![Watch the video](https://i.imgur.com/39zPpWv.png)](https://www.youtube.com/watch?v=tPUJNScNV6M)
+
 ## Everyone Else
 
 Download the latest version from the `releases` tab on the right.
