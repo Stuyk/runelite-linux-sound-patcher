@@ -1,0 +1,19 @@
+{
+  "name": "runelite-linux-sound-patcher",
+  "module": "src/index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "bun run ./src/index.ts",
+    "build": "bun build ./src/index.ts --compile --outfile runelite-sound-patcher"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "fast-glob": "^3.3.3"
+  }
+}
