@@ -33,11 +33,11 @@ bun install
 ### Run
 
 ```bash
-bun start
+bun run start
 ```
 
 ### Build
 
 ```sh
-bun build
+bun run build
 ```
