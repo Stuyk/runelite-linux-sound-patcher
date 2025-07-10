@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RuneLite Linux Sound Patcher</title>
+    <meta name="description" content="A simple patch tool to fix no audio/sound bugs for RuneLite on Linux.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Favicon (Simple SVG icon) -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🔊</text></svg>">
+</head>
+<body>
+
+    <div class="container">
+
+        <header>
+            <h1>RuneLite Linux Sound Patcher</h1>
+            <p class="subtitle">Finally, a simple fix for the no-sound bug on Linux.</p>
+            <a href="https://github.com/Stuyk/runelite-linux-sound-patcher/releases" class="cta-button" target="_blank" rel="noopener noreferrer">
+                Download Latest Version
+            </a>
+            <br />
+            <br />
+            <div>
+                <a href="https://github.com/Stuyk/runelite-linux-sound-patcher" target="_blank" rel="noopener noreferrer">View Source</a>
+                |
+                <a href="https://paypal.me/stuyk" target="_blank" rel="noopener noreferrer">Tip Me</a>
+            </div>
+        </header>
+
+        <main>
+            <section id="how-to-use">
+                <h2>How to Use</h2>
+                <p>Using the patcher is straightforward. Just download the script, make it executable, and run it with administrator privileges.</p>
+                
+                <div class="code-block">
+                    <p>// 1. Make the script executable</p>
+                    <pre><code>chmod +x ./runelite-sound-patcher</code></pre>
+                    <p>// 2. Run the patcher with admin privileges</p>
+                    <pre><code>sudo ./runelite-sound-patcher</code></pre>
+                </div>
+                
+                <p class="note">
+                    <strong>Why sudo?</strong> Administrator privileges are required to correctly update the system's symbolic links for the audio libraries that RuneLite depends on. The script is open-source, so you can review the code yourself.
+                </p>
+            </section>
+
+            <section id="video-guide">
+                <h2>Behind the Scenes: How It Works</h2>
+                <p>I created a short video explaining the problem and walking through how I wrote this patcher script. Watch it to understand what's happening under the hood.</p>
+                
+                <div class="video-container">
+                    <iframe 
+                        width="560" 
+                        height="315" 
+                        src="https://www.youtube.com/embed/tPUJNScNV6M" 
+                        title="YouTube video player" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                    </iframe>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>© 2024 Stuyk. All rights reserved.</p>
+            <p>
+                <a href="https://github.com/Stuyk/runelite-linux-sound-patcher" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+            </p>
+        </footer>
+
+    </div>
+
+</body>
+</html>
